@@ -2,7 +2,22 @@ const app = "I don't do much."
 
 var kittens = ['Milo', 'Otis', 'Garfield']
 
-destructivelyAppendKitten(elem)
+function destructivelyAppendKitten(elem)
 {
   kittens.push(elem)
+}
+
+function destructivelyPrependKitten(elem)
+{
+  kittens.unshift(elem)
+}
+
+function destructivelyRemoveLastKitten()
+{
+  kittens.pop()
+}
+
+function destructivelyRemoveFirstKitten(elem)
+{
+
 }
